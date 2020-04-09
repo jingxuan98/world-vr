@@ -1,7 +1,8 @@
 import React,{Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Spain from './places/Spain'
+import Selection from './Selection.js'
+import Home from './Home.js'
 import {
   BrowserRouter as Router,
   Switch,
@@ -14,20 +15,15 @@ class App extends Component {
 
   render(){
     return (
-      <Router>
-        <div /*style={{position: 'absolute', height: '100%', width: '100%'}}*/ className="App">
-          <a><Link to="/spain">Spain</Link></a>            
-        </div>
-
-
-
-
-        <Switch>
-          <Route path="/spain">
-            <Spain/>
-          </Route>
+   
+      <div>
+        <Switch >
+          <Route exact path ='/' component={Home}/>
+          <Route exact path="/select" component={Selection} />
         </Switch>
-      </Router>
+      </div>
+
+  
     );
   }
 }
