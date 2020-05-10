@@ -70,7 +70,7 @@ body{
         padding-right: 15px;
         text-align: center;
         cursor: pointer;
-        top: 50px;
+        bottom: 60px;
         transition: 0.8s;
         position: relative;
         border-radius: 100px;
@@ -84,6 +84,7 @@ body{
 
       .gonow{
       color: #fff;
+      
       }
 
       .gonow:hover{
@@ -183,7 +184,7 @@ body{
     padding-right: 15px;
     text-align: center;
     cursor: pointer;
-    top: 50px;
+    bottom: 60px;
     transition: 0.8s;
     position: relative;
     border-radius: 100px;
@@ -219,7 +220,7 @@ body{
     text-align: center;
     color: #fff;
     position: relative;
-    bottom: 50px;
+    bottom: 60px;
   }
 
   
@@ -238,7 +239,7 @@ body{
     padding-right: 30px;
     text-align: center;
     cursor: pointer;
-    top: 50px;
+    bottom: 80px;
     transition: 0.8s;
     position: relative;
     border-radius: 100px;
