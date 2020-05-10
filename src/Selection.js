@@ -58,7 +58,7 @@ class Selection extends Component {
       <Router>
         <div className="container">
           <div className="title">
-            <h2>Spaces</h2>
+            <h2 style={{color:"#fff", fontWeight: "700"}}>Spaces</h2>
             </div>
           
           <Row 
