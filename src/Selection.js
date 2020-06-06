@@ -4,7 +4,14 @@ import { Row, Col} from 'antd';
 import '../node_modules/antd/dist/antd.css';
 import { EyeOutlined } from '@ant-design/icons';
 import './App.css';
+
+//Import Pages
 import Spain from './places/Spain'
+import Us from "./places/Us"
+
+//Import Preview Pictures
+import mallocra from './assets/mallocra-spain.jpg'
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -72,7 +79,7 @@ class Selection extends Component {
                 cover={
                   <img
                     alt="example"
-                    src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                    src={mallocra}
                   />
                 }
                 actions={[
@@ -80,8 +87,8 @@ class Selection extends Component {
                 ]}
               >
                 <Meta
-                  title="Card title"
-                  description="This is the description"
+                  title="Mallocra. Spain"
+                  description="Mallorca (Majorca) is  known forsheltered coves and Roman and Moorish remains"
                 />
               </Card>
 
@@ -97,7 +104,7 @@ class Selection extends Component {
                   />
                 }
                 actions={[
-                  <Link to="/spain"><EyeOutlined key="view"/> View</Link>
+                  <Link to="/Us"><EyeOutlined key="view"/> View</Link>
                 ]}
               >
                 <Meta
@@ -246,6 +253,10 @@ class Selection extends Component {
         <Switch>
           <Route path="/spain">
             <Spain/>
+          </Route>
+
+          <Route path="/Us">
+                <Us/>
           </Route>
         </Switch>
       </Router>
