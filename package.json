@@ -7,7 +7,11 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "aframe": "^1.0.4",
+<<<<<<< HEAD
     "antd": "^4.3.2",
+=======
+    "antd": "^4.2.0",
+>>>>>>> b6496f5feae7b5d0f4b58cf2e8ab2e6640f18857
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",

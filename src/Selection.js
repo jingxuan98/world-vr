@@ -287,7 +287,7 @@ class Selection extends Component {
           </Route>
           <Route path="/germany">
             <Germany/>
-          </Route>
+            </Route>
         </Switch>
       </Router>
     );
