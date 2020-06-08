@@ -1,0 +1,33 @@
+.row-class{
+  margin: 20px;
+}
+
+.ant-col{
+  padding: 10px;
+}
+
+.container{
+  overflow: auto !important;
+}
+
+.title{
+  text-align: center;
+    margin: 30px;
+    font-size: 24px
+}
+
+.ant-card-meta{
+  text-align: center;
+}
+
+.cards{
+  border-radius: 10px !important;
+}
+
+
+@media only screen and (max-width: 700px){ 
+
+
+}
+
+
