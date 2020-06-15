@@ -25,6 +25,8 @@ import momo from './assets/momostaircase-italy.jpg'
 import peach from './assets/veria-greece.jpg'
 import monreal from './assets/monreal-germany.jpg'
 
+import effect from "./assets/audio/effect.mp3"
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -33,6 +35,7 @@ import {
 } from "react-router-dom";
 
 const { Meta } = Card;
+
 
 
 class Selection extends Component {
@@ -96,7 +99,7 @@ class Selection extends Component {
                   />
                 }
                 actions={[
-                  <Link to="/spain"><EyeOutlined key="view"/> View</Link>
+                  <Link to="/spain" ><EyeOutlined key="view"/> View</Link>
                 ]}
               >
                 <Meta
@@ -238,7 +241,7 @@ class Selection extends Component {
             <Col className="cards" span={this.state.columnSpan}>
               <Card
                 
-                cover={
+                cover={ 
                   <img
                     alt="example"
                     src={monreal}

@@ -5,6 +5,12 @@ import 'aframe';
 
 class Greece extends Component {
 
+    audio = new Audio("/greece.mp3")
+  
+    componentDidMount(){
+      this.audio.play();
+    }
+
     render(){
         return(
          <a-scene style={{position:'initial'}} >

@@ -33,7 +33,7 @@ class Home extends Component {
               
                 <div className="intro">
                 
-                  <h1>TRAVELLING THE WORLD WITHOUT LEAVING YOUR ROOM.</h1>
+                  <h1 style={{fontSize:"30px"}}>TRAVELLING THE WORLD WITHOUT LEAVING YOUR ROOM.</h1>
               
               
                       <Link to="/select"><button className="btn gonow">GO NOW</button></Link>

@@ -22,8 +22,12 @@
 
 .cards{
   border-radius: 10px !important;
+  
 }
 
+.ant-card-body{
+  min-height: 140px !important;
+}
 
 @media only screen and (max-width: 700px){ 
 

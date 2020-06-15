@@ -5,6 +5,12 @@ import 'aframe';
 
 class US extends Component {
 
+    audio = new Audio("/us.mp3")
+  
+    componentDidMount(){
+      this.audio.play();
+    }
+
     render(){
         return(
          <a-scene style={{position:'initial'}} >

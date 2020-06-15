@@ -5,6 +5,12 @@ import 'aframe';
 
 class Russia extends Component {
 
+    audio = new Audio("/Russia.mp3")
+  
+    componentDidMount(){
+      this.audio.play();
+    }
+
     render(){
         return(
          <a-scene style={{position:'initial'}} >

@@ -5,6 +5,12 @@ import 'aframe';
 
 class Japan extends Component {
 
+    audio = new Audio("/japan.mp3")
+  
+    componentDidMount(){
+      this.audio.play();
+    }
+
     render(){
         return(
          <a-scene style={{position:'initial'}} >
